@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="css/nav-style.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link media="print" href="print.css" />
+</head>
+
+<body>
+    <!-- skip link -->
+    <a href="#main" class="skip">Skip to main</a>
+    <!-- start of header -->
+    <header id="header" class="header">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i id="symbol-toggle" class="fas fa-bars"></i>
+            </span>
+            <a href="#header" class="logo">
+                <div class="logo-container">
+                    <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
+                    <h1 class="page-title">Web Dev I</h1>
+                </div>
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#main" class="nav-links">Main</a>
+                </li>
+                <li>
+                    <a href="#about-me" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="#pictures" class="nav-links">My Photos</a>
+                </li>
+                <li>
+                    <a href="#story" class="nav-links">A Story</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-links">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!-- start of main content -->
+    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
+    <main id="main" tabindex="-1" class="main">
+        <!-- start of bio section -->
+        <section class="hero">
+            <div class="content">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Me/pictureofme-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/Me/pictureofme-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/Me/pictureofme-small.jpg">
+                    <img src="images/Me/pictureofme-xsmall.jpg" alt="This is a picture of me">
+                </picture>
+            </div>
+        </section>
+        <section id="about-me" class="about-me">
+            <div class="content">
+                <div class="about-content">
+                    <p class="my-name">Beverly Garcia-Godoy</p>
+                    <p class="my-location">New Jersey</p>
+                    <p class="iama">I want to be...</p>
+                    <p class="my-info">a UX designer.</p>
+                    <p class="iama">My favorite way to work is...</p>
+                    <p class="my-info">at home with my cats and a cup of tea.</p>
+                    <p class="iama">In my free time, I like to...</p>
+                    <p class="my-info">relax and take naps.</p>
+                </div>
+            </div>
+        </section>
+        <!-- end of bio section -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <!-- start of photo gallery -->
+        <section id="pictures" class="gallery">
+            <figure class="fig1">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Butterscotch/butterscotch-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/Butterscotch/butterscotch-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/Butterscotch/butterscotch-small.jpg">
+                    <img src="images/Butterscotch/butterscotch-xsmall.jpg" alt="This is Butterscotch!">
+                </picture>
+                <figcaption>This is Butterscotch!</figcaption>
+            </figure>
+            <hr>
+            <figure class="fig2">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Tea/teasunset-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/Tea/teasunset-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/Tea/teasunset-small.jpg">
+                    <img src="images/Tea/teasunset-xsmall.jpg" alt="Cup of tea in the sunset">
+                </picture>
+                <figcaption>A cup of tea in the sunset.</figcaption>
+            </figure>
+            <hr>
+            <figure class="fig3">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Debbie/debbie-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/Debbie/debbie-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/Debbie/debbie-small.jpg">
+                    <img src="images/Debbie/debbie-xsmall.jpg" alt="This is Debbie!">
+                </picture>
+                <figcaption>This is Debbie!</figcaption>
+            </figure>
+        </section>
+        <!-- end of photo gallery -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <hr class="mobile-first">
+        <!-- start of Sherlock Holmes story -->
+        <article id="story" class="story">
+            <h1>Dracula</h1>
+            <p>"A kitten, a nice little, sleek playful kitten, that I can play with, and teach, and feed--and feed--and feed!" I was not unprepared for this request, for I had noticed how his pets went on increasing in size and vivacity, but I did not care that his pretty family of tame sparrows should be wiped out in the same manner as the flies and the spiders; so I said I would see about it, and asked him if he would not rather have a cat than a kitten. His eagerness betrayed him as he answered:--</p>
+
+            <p>"Oh, yes, I would like a cat! I only asked for a kitten lest you should refuse me a cat. No one would refuse me a kitten, would they?" I shook my head, and said that at present I feared it would not be possible, but that I would see about it. His face fell, and I could see a warning of danger in it, for there was a sudden fierce, sidelong look which meant killing. The man is an undeveloped homicidal maniac. I shall test him with his present craving and see how it will work out; then I shall know more.</p>
+
+            <p>10 p. m.--I have visited him again and found him sitting in a corner brooding. When I came in he threw himself on his knees before me and implored me to let him have a cat; that his salvation depended upon it. I was firm, however, and told him that he could not have it, whereupon he went without a word, and sat down, gnawing his fingers, in the corner where I had found him. I shall see him in the morning early.</p>
+
+            <p>20 July.--Visited Renfield very early, before the attendant went his rounds. Found him up and humming a tune. He was spreading out his sugar, which he had saved, in the window, and was manifestly beginning his fly-catching again; and beginning it cheerfully and with a good grace. I looked around for his birds, and not seeing them, asked him where they were. He replied, without turning round, that they had all flown away. There were a few feathers about the room and on his pillow a drop of blood. I said nothing, but went and told the keeper to report to me if there were anything odd about him during the day.</p>
+
+            <p>11 a. m.--The attendant has just been to me to say that Renfield has been very sick and has disgorged a whole lot of feathers. "My belief is, doctor," he said, "that he has eaten his birds, and that he just took and ate them raw!"</p>
+
+            <p>11 p. m.--I gave Renfield a strong opiate to-night, enough to make even him sleep, and took away his pocket-book to look at it. The thought that has been buzzing about my brain lately is complete, and the theory proved. My homicidal maniac is of a peculiar kind. I shall have to invent a new classification for him, and call him a zoöphagous (life-eating) maniac; what he desires is to absorb as many lives as he can, and he has laid himself out to achieve it in a cumulative way. He gave many flies to one spider and many spiders to one bird, and then wanted a cat to eat the many birds. What would have been his later steps? It would almost be worth while to complete the experiment. It might be done if there were only a sufficient cause. Men sneered at vivisection, and yet look at its results to-day! Why not advance science in its most difficult and vital aspect--the knowledge of the brain? Had I even the secret of one such mind--did I hold the key to the fancy of even one lunatic--I might advance my own branch of science to a pitch compared with which Burdon-Sanderson's physiology or Ferrier's brain-knowledge would be as nothing. If only there were a sufficient cause! I must not think too much of this, or I may be tempted; a good cause might turn the scale with me, for may not I too be of an exceptional brain, congenitally?</p>
+
+            <p>How well the man reasoned; lunatics always do within their own scope. I wonder at how many lives he values a man, or if at only one. He has closed the account most accurately, and to-day begun a new record. How many of us begin a new record with each day of our lives?</p>
+
+            <p>To me it seems only yesterday that my whole life ended with my new hope, and that truly I began a new record. So it will be until the Great Recorder sums me up and closes my ledger account with a balance to profit or loss. Oh, Lucy, Lucy, I cannot be angry with you, nor can I be angry with my friend whose happiness is yours; but I must only wait on hopeless and work. Work! work!</p>
+
+            <p>If I only could have as strong a cause as my poor mad friend there--a good, unselfish cause to make me work--that would be indeed happiness.</p>
+
+            <p>26 July.--I am anxious, and it soothes me to express myself here; it is like whispering to one's self and listening at the same time. And there is also something about the shorthand symbols that makes it different from writing. I am unhappy about Lucy and about Jonathan. I had not heard from Jonathan for some time, and was very concerned; but yesterday dear Mr. Hawkins, who is always so kind, sent me a letter from him. I had written asking him if he had heard, and he said the enclosed had just been received. It is only a line dated from Castle Dracula, and says that he is just starting for home. That is not like Jonathan; I do not understand it, and it makes me uneasy. Then, too, Lucy, although she is so well, has lately taken to her old habit of walking in her sleep. Her mother has spoken to me about it, and we have decided that I am to lock the door of our room every night. Mrs. Westenra has got an idea that sleep-walkers always go out on roofs of houses and along the edges of cliffs and then get suddenly wakened and fall over with a despairing cry that echoes all over the place. Poor dear, she is naturally anxious about Lucy, and she tells me that her husband, Lucy's father, had the same habit; that he would get up in the night and dress himself and go out, if he were not stopped. Lucy is to be married in the autumn, and she is already planning out her dresses and how her house is to be arranged. I sympathise with her, for I do the same, only Jonathan and I will start in life in a very simple way, and shall have to try to make both ends meet. Mr. Holmwood--he is the Hon. Arthur Holmwood, only son of Lord Godalming--is coming up here very shortly--as soon as he can leave town, for his father is not very well, and I think dear Lucy is counting the moments till he comes. She wants to take him up to the seat on the churchyard cliff and show him the beauty of Whitby. I daresay it is the waiting which disturbs her; she will be all right when he arrives.</p>
+        </article>
+        <!-- end of Sherlock Holmes story -->
+    </main>
+    <!-- end of main content -->
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <hr class="mobile-first">
+    <!-- start of contact form -->
+    <section id="contact" class="form-container">
+        <h1> Get in Contact With Me</h1>
+        <br class="mobile-first"><br class="mobile-first">
+        <div>
+            <form method="POST" action="https://formspree.io/bev_gar@icloud.com">
+                <fieldset>
+                    <legend>Email me!</legend>
+                    <p>Email</p>
+                    <input type="email" name="email">
+                    <br class="mobile-first"><br class="mobile-first">
+                    <fieldset>
+                        <legend>Allow a Reply?</legend>
+                        <p>
+                            <input type="radio" name="action" id="yes" /> <label for="yes">Yes!</label>
+                            <br>
+                            <br>
+                            <input type="radio" name="action" id="no" /> <label for="no">No!</label>
+                            <br>
+                        </p>
+                        <br class="mobile-first"><br class="mobile-first">
+                    </fieldset>
+                    <p>Message</p>
+                    <textarea name="message"></textarea>
+                    <br><br>
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <!-- end of contact form -->
+    <!-- start of footer -->
+    <footer>
+        <br class="mobile-first"><br class="mobile-first">
+        <small><i>Copyright &copy; 2019 Beverly Garcia-Godoy</i></small>
+    </footer>
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <!-- end of footer -->
+    <br class="mobile-first"><br class="mobile-first">
+    <!-- start of javascript for nav toggle -->
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let symbolToggle = document.getElementById('symbol-toggle');
+
+
+        navBarToggle.addEventListener('click', function() {
+            mainNav.classList.toggle('active');
+            if (symbolToggle.classList.contains('fa-bars')) {
+                symbolToggle.classList.remove('fa-bars');
+                symbolToggle.classList.add('fa-times');
+            } else {
+                symbolToggle.classList.remove('fa-times');
+                symbolToggle.classList.add('fa-bars');
+            }
+        });
+
+    </script>
+    <!-- end of javascript for nav toggle -->
+</body>
+
+</html>

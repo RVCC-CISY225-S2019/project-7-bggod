@@ -1,0 +1,15 @@
+@media print {
+
+    .header,
+    .form-container,
+    .footer,
+    .back-to-top,
+    .skip,
+    .form-container {
+        display: none;
+    }
+
+
+}
+
+/*attempted to make print.css file but couldn't see changes made when attempting to print*/
