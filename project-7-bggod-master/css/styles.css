@@ -278,3 +278,5 @@ a.skip:hover {
     display: none;
 }
 
+/*side note: when trying to create layout for wide screen, I was unsuccessful with adjusting all 3 images & captions in row*/
+/*When adjustments were made to try to have images side by side, it would affect the tablet layout. I was really confused*/
