@@ -1,5 +1,55 @@
 
+body {
+    font-family: 'EB Garamond', serif;
+    /*insert font from GOOGLE HERE*/
+}
 
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+legend {
+    font-size: 1.3rem;
+    font-family: 'Playfair Display SC', serif;
+}
+
+textarea {
+    border: 1.2px solid;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    background-color: #EAEAEA;
+}
+
+input {
+    border: 1.2px solid;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: #EAEAEA;
+}
+
+button {
+    background-color: #8FB390;
+    color: #FFFFFF;
+    border: 1.2px solid black;
+    box-shadow: 0 1px 0 #EAEAEA;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display SC', serif;
+}
+
+button:focus {
+    background-color: #EAEAEA;
+    color: #5A7F64;
+}
 
 /*  grids */
 
